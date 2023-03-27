@@ -1,0 +1,120 @@
+/* FONTS */
+@font-face {
+  font-family: Defeault;
+  src: url(../font/Nunito-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+html {
+  font-family: Defeault;
+  background-color: #dfdfdf;
+}
+
+header {
+  border-radius: 0% 0% 100% 100%;
+  margin-bottom: 40px;
+  box-shadow: 0 0 10px gray;
+}
+header div#text_header {
+  padding: 45px;
+  padding-top: 0;
+}
+.nav_image {
+  width: 54px;
+  height: 50px;
+  transition: 0.4s;
+}
+.nav_image:hover {
+  scale: 115%;
+}
+nav ul#languages {
+  padding: 20px 0;
+}
+
+section {
+  font-size: 16px;
+  width: 90%;
+  padding: 10px 5px;
+  margin: 10px auto;
+  font-weight: bold;
+  
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+header, section {
+  background: rgb(160, 200, 255);
+  background: linear-gradient(90deg, rgb(170 255 255) 0%, rgb(165, 200, 255) 50%, rgb(160, 190, 255) 100%);
+}
+@media (min-width: 500px) {
+  section {
+    width: 75%;
+  }
+}
+@media (min-width: 650px) {
+  section {
+    width: 60%;
+  }
+}
+@media (min-width: 800px) {
+  section {
+    width: 50%;
+  }
+}
+@media (min-width: 1100px) {
+  section {
+    width: 30%;
+  }
+}
+footer {
+  font-size: 9px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 19px;
+  margin: 5px 0 10px 0;
+}
+p {
+  margin-bottom: 10px;
+}
+ul {
+  display: flex;
+  font-weight: 800;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+img {
+  width: 32px;
+  height: 32px;
+}
+img.bigger {
+  width: 64px;
+  height: 64px;
+  float: left;
+  padding: 5px;
+}
+img#SQL {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+}
+img#Sala_309 {
+  width: 90%;
+  height: 55%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(119, 166, 255);
+}
+#ZS10_logo {
+  width: 120px;
+  height: 120px;
+}
