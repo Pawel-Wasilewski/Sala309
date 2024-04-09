@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Merri;
+}
+
+header h1 {
+    text-align: center;
+    padding: 40px;
+    color: rgb(49, 49, 177);
+}
+header {
+    
+    background: rgb(255, 227, 114);
+        background: -moz-linear-gradient(90deg, rgba(255, 227, 114, 1) 31%, rgba(255, 254, 0, 1) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(255, 227, 114, 1) 31%, rgba(255, 254, 0, 1) 100%);
+        background: linear-gradient(90deg, rgba(255, 227, 114, 1) 31%, rgba(255, 254, 0, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffe372", endColorstr="#fffe00", GradientType=1);
+    box-shadow: 0px 10px 15px grey;
+    padding-bottom: 25px;
+    border-radius: 0px 0px 70% 70% ;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    scale: 170%;
+    margin-bottom: 10%;
+}
+section div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0px 0px 15px grey;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 12px;
+}
+div h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+div p {
+    text-align: justify;
+}
+#peter {
+    margin-top: 11%;
+    margin-bottom: 21.1%;
+}
+@font-face {
+    font-family: Merri;
+    src: url(../fonts/Merriweather-Light.ttf);
+}
